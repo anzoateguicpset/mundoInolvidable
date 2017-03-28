@@ -1,2 +1,2 @@
-# mundoInolvidable
+# Mundo Inolvidable
 infografía "Mundo Inolvidable"

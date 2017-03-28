@@ -1,0 +1,358 @@
+<html>
+	<head>
+		<title>Menu Principal</title>
+		<meta content="Edher Padilla" name="author">
+		<style type="text/css">
+		</style>
+		<script type="text/javascript" src="../script/jquery.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".oculta").css("display", "none");
+			});
+		</script>
+		<script language="javascript">	
+			function Aparecer(opcion){
+				switch(opcion){
+					case 1:
+						$("#titl").show(10).fadeIn(10);
+					        $("#g-princ").show(10).fadeIn(10);
+						$("#somb-g-princ").show(1).fadeIn(1);
+						$("#tex-titl").delay(4000).fadeIn(100);
+						$("#bot-int").delay(4500).fadeIn(100);
+						$("#bot-int2").delay(4800).fadeIn(100);
+						$("#bot-int3").delay(5100).fadeIn(100);
+						$("#fond").delay(10).fadeIn(10);
+						
+						break;
+						
+					case 2:
+						$("#bot-int").delay(10).fadeOut(10);
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#titl").delay(10).fadeOut(10);
+						$("#somb-g-princ").delay(1).fadeOut(1);
+						$("#hid-1").delay(10).fadeIn(10);
+						$("#bot-cerr").delay(10).fadeIn(10);
+						$("#hid-tix").delay(500).fadeIn(400);
+						$("#hid-agua").delay(1500).fadeIn(400);
+						$("#g-tex-princ").delay(1).fadeIn(1);
+						$("#salto-hid").delay(2500).fadeIn(400);
+						$("#salto-hid-inf").delay(3000).fadeIn(400);
+						$("#salt-fuet-hid").delay(3500).fadeIn(400);
+						$("#pregt-hid").delay(4500).fadeIn(400);
+						
+							break;
+						
+					case 3:
+						$("#bot-int2").delay(10).fadeOut(10);
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#titl").delay(10).fadeOut(10);
+						$("#somb-g-princ").delay(10).fadeOut(10);
+						$("#geo-rec").delay(10).fadeIn(10);
+						$("#bot-cerr2").delay(10).fadeIn(10);
+						$("#g-tex-princ").delay(1).fadeIn(1);
+						$("#info-geo").delay(500).fadeIn(400);
+						$("#geo-rel").delay(1500).fadeIn(400);
+						$("#pai-geo").delay(1800).fadeIn(400);
+						$("#gal-geo").delay(2100).fadeIn(400);
+						$("#sel-geo").delay(2400).fadeIn(400);
+						$("#everst-geo").delay(2700).fadeIn(400);
+						
+							break;
+						
+					case 4:
+						$("#bot-int3").delay(10).fadeOut(10);
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#titl").delay(10).fadeOut(10);
+						$("#somb-g-princ").delay(10).fadeOut(10);
+						$("#g-tex-princ").delay(1).fadeIn(1);
+						$("#bot-cerr3").delay(10).fadeIn(10);
+						$("#rec-bio").delay(10).fadeIn(10);
+						$("#bio-info").delay(500).fadeIn(500);
+						$("#bio-info1").delay(1500).fadeIn(500);
+						$("#barr-inf1").delay(2500).fadeIn(500);
+						$("#fau-bio").delay(3000).fadeIn(500);
+						$("#barr-quion").delay(6000).fadeIn(500);
+						$("#flo-bio1").delay(4000).fadeIn(500);
+						$("#clim-bio").delay(5000).fadeIn(500);
+						$("#fau-inf-bio").delay(7000).fadeIn(500);
+						$("#flo-inf-bio").delay(10000).fadeIn(500);
+						$("#cli-inf-bio").delay(13000).fadeIn(500);
+						$("#barr3-bio").delay(14500).fadeIn(500);
+						$("#paisj-bio").delay(15000).fadeIn(500);
+						$("#paisj-inf-bio").delay(17000).fadeIn(500);
+						$("#adicio-bio").delay(21000).fadeIn(500);
+							
+						break;
+					case 5:
+						$("#amaz-geo").delay(10).fadeIn(10);
+						$("#cer-amaz").delay(10).fadeIn(10);
+						$("#bot-cerr2").delay(5).fadeOut(5);
+						
+						break;
+
+					case 6:
+						$("#geo-geor").delay(10).fadeIn(10);
+						$("#cer-amaz1").delay(10).fadeIn(10);
+						$("#bot-cerr2").delay(5).fadeOut(5);
+
+						break;
+				}
+			}
+		</script>
+		<script language="javascript">	
+			function Desaparecer(opcion){
+				switch(opcion){
+					case 1:
+						
+						$("#bot-int").delay(10).fadeIn(10);
+						$("#hid-1").delay(10).fadeOut(10);
+						$("#bot-cerr").delay(10).fadeOut(10);
+						$("#hid-tix").delay(10).fadeOut(10);
+						$("#hid-agua").delay(10).fadeOut(10);
+						$("#salto-hid").delay(10).fadeOut(10);
+						$("#salto-hid-inf").delay(10).fadeOut(10);
+						$("#pregt-hid").delay(10).fadeOut(10);
+						$("#salt-fuet-hid").delay(10).fadeOut(10);
+					break;
+
+					case 2:
+						$("#bot-int2").delay(10).fadeIn(10);
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#titl").delay(10).fadeOut(10);
+						$("#somb-g-princ").delay(10).fadeIn(10);
+						$("#geo-rec").delay(10).fadeOut(10);
+						$("#bot-cerr2").delay(10).fadeOut(10);
+						$("#info-geo").delay(10).fadeOut(10);
+						$("#geo-rel").delay(10).fadeOut(10);
+						$("#pai-geo").delay(10).fadeOut(10);
+						$("#gal-geo").delay(10).fadeOut(10);
+						$("#sel-geo").delay(10).fadeOut(10);
+						$("#everst-geo").delay(10).fadeOut(10);
+						
+						
+					break;
+
+					case 3:
+						$("#bot-int3").delay(10).fadeIn(10);
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#titl").delay(10).fadeOut(10);
+						$("#bot-cerr3").delay(10).fadeOut(10);
+						$("#rec-bio").delay(10).fadeOut(10);
+						$("#bio-info").delay(10).fadeOut(10);
+						$("#bio-info1").delay(10).fadeOut(10);
+						$("#barr-inf1").delay(10).fadeOut(10);
+						$("#fau-bio").delay(10).fadeOut(10);
+						$("#barr-quion").delay(10).fadeOut(10);
+						$("#barr3-bio").delay(10).fadeOut(10);
+						$("#flo-bio1").delay(10).fadeOut(10);
+						$("#clim-bio").delay(10).fadeOut(10);
+						$("#fau-inf-bio").delay(10).fadeOut(10);
+						$("#flo-inf-bio").delay(10).fadeOut(10);
+						$("#cli-inf-bio").delay(10).fadeOut(10);
+						$("#paisj-bio").delay(10).fadeOut(10);
+						$("#paisj-inf-bio").delay(10).fadeOut(10);
+						$("#adicio-bio").delay(10).fadeOut(10);
+					break;
+					
+					case 4:
+						$("#amaz-geo").show(200).fadeOut(100);
+						$("#cer-amaz").show(300).fadeOut(100);
+						$("#bot-cerr2").delay(5).fadeIn(5);
+					break;
+					
+					case 5:
+						$("#geo-geor").show(200).fadeOut(100);
+						$("#cer-amaz1").show(300).fadeOut(100);
+						$("#bot-cerr2").delay(5).fadeIn(5);
+					break;
+				}
+			}
+		</script>
+	</head>
+
+	<body body bgcolor="#FFFAE0" onload="Aparecer(1)" >
+	
+		<!--Fondo principal-->
+
+
+
+<img src="../imagenes/png/fondo-princ.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px;
+		overflow: hidden; visibility: visible; z-index: 0; display: none;" id="fond" name="fondo" alt="fondo">
+
+<marquee behavior="slide" loop="1" scrolldelay="120" direction="up" style="border: 0px solid; position: absolute; top: 224px; left: 0px; width: 500px; height: 200px;
+			overflow: hidden; visibility: visible;z-index: 5;"><img alt="titulo" src="../imagenes/png/titulo.png"  style=" width: 374px; height: 180px;" 
+			class="oculta" id="titl" alt="titl"></marquee>
+
+<marquee behavior="slide" loop="1" scrolldelay="75" direction="left" style="border: 0px solid; position: absolute; top: 178px; left: 380px; width: 320px; height: 350px;
+			overflow: hidden; visibility: visible; z-index: 1;"><img alt="titulo" src="../imagenes/png/globo-princ-s.png"  style="width: 264px; height: 263px;" 
+			class="oculta" id="g-princ" alt="g-princ"></marquee>
+			
+			<img alt="titulo" src="../imagenes/png/globo-pagina-s.png" style="border: 0px solid; position: absolute; z-index: 8; top: 178px; left: 380px; width: 264px; height: 263px;" 
+	class="oculta" id="g-tex-princ" alt="g-tex-princ">
+			
+<marquee behavior="slide" loop="1" scrolldelay="75" direction="left" style="border: 0px solid; position: absolute; top: 444px; left: 380px; width: 320px; height: 350px;
+			overflow: hidden; visibility: visible;"><img alt="titulo" src="../imagenes/png/globo-princ-somb.png"  style=" z-index: 1;width: 255px; height: 55px;" 
+			class="oculta" id="somb-g-princ" alt="somb-g-princ"></marquee>
+
+<img alt="titulo" src="../imagenes/png/text-intro.png" style="border: 0px solid; position: absolute; top: 367px; left: 595px; width: 390px; height: 113px;" 
+	class="oculta" id="tex-titl" alt="tex-titl">
+
+
+
+
+
+<!--bloque boton + verde-->
+
+<a href="#">			
+<img alt="titulo" src="../imagenes/png/B1.png" style="border: 0px solid; position: absolute; top: 185px; left: 387px; width: 48px; height: 55px;overflow: hidden; 
+visibility: visible; z-index: 10; display: none;" class="oculta" id="bot-int" alt="bot-int" onclick="Aparecer(2)"onmouseover=" (src='../imagenes/png/B1-pre.png')" 
+onmouseout="(src='../imagenes/png/B1.png')"></a>
+
+<a href="#">			
+<img alt="titulo" src="../imagenes/png/B1-cerrar.png" style="border: 0px solid; position: absolute; top: 180px; left: 385px; width: 51px; height: 62px;overflow: hidden; 
+visibility: visible; z-index: 9; display: none;" class="oculta" id="bot-cerr" alt="bot-cerr" onclick="Desaparecer(1)"></a>
+
+
+
+<img alt="titulo" src="../imagenes/png/recuadro-hidro.png" style="border: 0px solid; position: absolute; top: 43px; left: 0px; width: 523px; height: 288px;" 
+	class="oculta" id="hid-1" alt="hid-1">
+
+<img alt="titulo" src="../imagenes/png/info-hidro.png" style="border: 0px solid; position: absolute; top: 56px; left: 0px; width: 205px; height: 68px;" 
+	class="oculta" id="hid-tix" alt="hid-tix">
+
+<img alt="titulo" src="../imagenes/png/agua-hidro.png" style="border: 0px solid; position: absolute; top: 190px; left: 132px; width: 117px; height: 141px;" class="oculta" id="hid-agua" alt="hid-agua">
+
+<img alt="titulo" src="../imagenes/png/salto-hidro.png" style="border: 0px solid; position: absolute; top: 118px; left: 0px; width: 122px; height: 205px;" 
+	class="oculta" id="salto-hid" alt="salto-hid">
+
+<img alt="titulo" src="../imagenes/png/salto-info-hidro.png" style="border: 0px solid; position: absolute; top: 134px; left: 0px; width: 109px; height: 190px;" 
+	class="oculta" id="salto-hid-inf" alt="salto-hid-inf">
+
+<img alt="titulo" src="../imagenes/png/salto-fuentes-hidro.png" style="border: 0px solid; position: absolute; top: 150px; left: 40px; width: 179px; height: 62px;" 
+	class="oculta" id="salt-fuet-hid" alt="salt-fuet-hid">
+
+<img alt="titulo" src="../imagenes/png/preg-hidro.png" style="border: 0px solid; position: absolute; top: 102px; left: 120px; width: 230px; height: 76px;" 
+	class="oculta" id="pregt-hid" alt="pregt-hid">
+
+<!--bloque boton + rojo-->
+
+<a href="#">
+<img alt="titulo" src="../imagenes/png/B2.png" style="border: 0px solid; position: absolute; top: 289px; left: 628px; width: 45px; height: 49px;overflow: hidden; 
+visibility: visible; z-index: 10; display: none;" class="oculta" id="bot-int2" alt="bot-int2" onclick="Aparecer(3)" onmouseover=" (src='../imagenes/png/B2-pre.png')" 
+onmouseout="(src='../imagenes/png/B2.png')"></a>
+
+<a href="#">			
+<img alt="titulo" src="../imagenes/png/B2-cerrar.png" style="border: 0px solid; position: absolute; top: 282px; left: 623px; width: 55px; height: 62px;overflow: hidden; 
+visibility: visible; z-index: 9; display: none;" class="oculta" id="bot-cerr2" alt="bot-cerr2" onclick="Desaparecer(2)"></a>
+
+
+<img alt="titulo" src="../imagenes/png/recuadro-geo.png" style="border: 0px solid; position: absolute; top: 2px; left: 510px; width: 514px; height: 564px;" 
+	class="oculta" id="geo-rec" alt="geo-rec">
+
+<img alt="titulo" src="../imagenes/png/info-geo.png" style="border: 0px solid; position: absolute; top: 24px; left: 681px; width: 333px; height: 88px;" 
+	class="oculta" id="info-geo" alt="info-geo">
+
+<img alt="titulo" src="../imagenes/png/geo-relieve-nuev.png" style="border: 0px solid; position: absolute; top: 100px; left: 738px; width: 289px; height: 84px;" 
+	class="oculta" id="geo-rel" alt="geo-rel"onmouseover="(src='../imagenes/png/geo-relieve-nuev-pre.png')" onmouseout="(src='../imagenes/png/geo-relieve-nuev.png')">
+
+
+
+<img alt="titulo" src="../imagenes/png/galpagos-geo-p.png" style="border: 0px solid; position: absolute; top: 176px; left: 771px; width: 142px; height: 210px;" 
+	class="oculta" id="gal-geo" alt="gal-geo">
+
+<!--bloque amazonas-->
+<a href="#">
+<img src="../imagenes/png/selva-geo.png" style="border: 0px solid; position: absolute; top: 177px; left: 914px; width: 112px; height: 278px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="sel-geo" name="sel-geo" alt="sel-geo" onclick="Aparecer(5)"
+onmouseover="(src='../imagenes/png/selva-geo-pre.png')" onmouseout="(src='../imagenes/png/selva-geo.png')"></a>
+
+<img alt="titulo" src="../imagenes/png/amazonas-geo.png" style="border: 0px solid; position: absolute; top: 15px;  left: 512px; z-index: 7;width: 512px; height: 539px;" 
+	class="oculta" id="amaz-geo" alt="amaz-geo">
+
+<a href="#">
+<img src="../imagenes/png/cerrar-amazonas.png" style="border: 0px solid; position: absolute; top: 24px; left: 975px; width: 52px; height: 47px;
+		overflow: hidden; visibility: visible; z-index: 9; display: none;" id="cer-amaz" name="cer-amaz" alt="cer-amaz" onclick="Desaparecer(4)"
+onmouseover="(src='../imagenes/png/cerrar-pre.png')" onmouseout="(src='../imagenes/png/cerrar-amazonas.png')"></a>
+
+<!--bloque everest-->
+<a href="#">
+<img src="../imagenes/png/everst-geo.png" style="border: 0px solid; position: absolute; top: 448px; left: 708px; width: 324px; height: 98px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="everst-geo" name="everst-geo" alt="everst-geo" onclick="Aparecer(6)"
+onmouseover="(src='../imagenes/png/everst-pre-geo.png')" onmouseout="(src='../imagenes/png/everst-geo.png')"
+		></a>
+
+<img alt="titulo" src="../imagenes/png/george-geo.png" style="border: 0px solid; position: absolute; top: 15px;  left: 520px; z-index: 7;width: 504px; height: 543px;" 
+	class="oculta" id="geo-geor" alt="geo-geor">
+
+<a href="#">
+<img src="../imagenes/png/cerrar-amazonas.png" style="border: 0px solid; position: absolute; top: 24px; left: 975px; width: 52px; height: 47px;
+		overflow: hidden; visibility: visible; z-index: 9; display: none;" id="cer-amaz1" name="cer-amaz1" alt="cer-amaz1" onclick="Desaparecer(5)"
+onmouseover="(src='../imagenes/png/cerrar-pre.png')" onmouseout="(src='../imagenes/png/cerrar-amazonas.png')"></a>
+
+
+<!--bloque boton + azul-->
+
+<a href="#">
+<img alt="titulo" src="../imagenes/png/B3.png" style="border: 0px solid; position: absolute; top: 387px; left: 392px; width: 49px; height: 48px;overflow: hidden; 
+visibility: visible; z-index: 10; display: none;" class="oculta" id="bot-int3" alt="bot-int3" onclick="Aparecer(4)" onmouseover=" (src='../imagenes/png/B3-pre.png')" 
+onmouseout="(src='../imagenes/png/B3.png')"></a>
+
+<a href="#">			
+<img alt="titulo" src="../imagenes/png/B3-cerrar.png" style="border: 0px solid; position: absolute; top: 380px; left: 385px; width: 58px; height: 65px;overflow: hidden; 
+visibility: visible; z-index: 9; display: none;" class="oculta" id="bot-cerr3" alt="bot-cerr3" onclick="Desaparecer(3)"></a>
+
+
+<img alt="titulo" src="../imagenes/png/recuadro-biomas.png" style="border: 0px solid; position: absolute; top: 302px; left: 0px; width: 520px; height: 270px;" 
+	class="oculta" id="rec-bio" alt="rec-bio">
+
+<img alt="titulo" src="../imagenes/png/biomas-info.png" style="border: 0px solid; position: absolute; top: 324px; left: 0px; width: 93px; height: 43px;" 
+	class="oculta" id="bio-info" alt="bio-info">
+
+<img alt="titulo" src="../imagenes/png/biomas-info1.png" style="border: 0px solid; position: absolute; top: 326px; left: 84px; width: 168px; height: 35px;" 
+	class="oculta" id="bio-info1" alt="bio-info1">
+
+<img alt="titulo" src="../imagenes/png/barra1-biomas.png" style="border: 0px solid; position: absolute; top: 349px; left: 7px; width: 23px; height: 150px;" 
+	class="oculta" id="barr-inf1" alt="barr-inf1">
+
+<img alt="titulo" src="../imagenes/png/barra2-biomas.png" style="border: 0px solid; position: absolute; top: 368px; left: 86px; width: 25px; height: 106px;" 
+	class="oculta" id="barr-quion" alt="barr-quion">
+
+<img alt="titulo" src="../imagenes/png/fauna-biomas.png" style="border: 0px solid; position: absolute; top: 359px; left: 19px; width: 73px; height: 33px;" 
+	class="oculta" id="fau-bio" alt="fau-bio">
+
+<img alt="titulo" src="../imagenes/png/flora-biomas.png" style="border: 0px solid; position: absolute; top: 405px; left: 17px; width: 72px; height: 30px;" 
+	class="oculta" id="flo-bio1" alt="flo-bio1">
+
+<img alt="titulo" src="../imagenes/png/clima-biomas.png" style="border: 0px solid; position: absolute; top: 447px; left: 17px; width: 71px; height: 32px;" 
+	class="oculta" id="clim-bio" alt="clim-bio">
+
+<img alt="titulo" src="../imagenes/png/fauna-info-bio.png" style="border: 0px solid; position: absolute; top: 359px; left: 101px; width: 124px; height: 39px;" 
+	class="oculta" id="fau-inf-bio" alt="fau-inf-bio">
+
+<img alt="titulo" src="../imagenes/png/flora-info-biomas.png" style="border: 0px solid; position: absolute; top: 400px; left: 100px; width: 140px; height: 43px;" 
+	class="oculta" id="flo-inf-bio" alt="flo-inf-bio">
+
+<img alt="titulo" src="../imagenes/png/clima-info-biomas.png" style="border: 0px solid; position: absolute; top: 450px; left: 96px; width: 179px; height: 38px;" 
+	class="oculta" id="cli-inf-bio" alt="cli-inf-bio">
+
+<img alt="titulo" src="../imagenes/png/barra3-biomas.png" style="border: 0px solid; position: absolute; top: 482px; left: 8px; width: 272px; height: 27px;" 
+	class="oculta" id="barr3-bio" alt="barr3-bio">
+
+<img alt="titulo" src="../imagenes/png/paisajes-biomas.png" style="border: 0px solid; position: absolute; top: 495px; left: 24px; width: 245px; height: 31px;" 
+	class="oculta" id="paisj-bio" alt="paisj-bio">
+
+<img alt="titulo" src="../imagenes/png/paisajes-info-biomas.png" style="border: 0px solid; position: absolute; top: 513px; left: 22px; width: 245px; height: 40px;" 
+	class="oculta" id="paisj-inf-bio" alt="paisj-inf-bio">
+
+<img alt="titulo" src="../imagenes/png/adicional-biomas.png" style="border: 0px solid; position: absolute; top: 555px; left: 0px; width: 385px; height: 20px;" 
+	class="oculta" id="adicio-bio" alt="adicio-bio">
+
+
+
+
+
+
+
+</body>
+</html>
